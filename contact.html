@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Faith Archibong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">Faith Archibong</a>
+  <nav>
+    <a href="index.html" >Home</a>
+    <a href="about.html" >About</a>
+    <a href="projects.html" >Projects</a>
+    <a href="planner.html" >Planner</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+<main>
+  <h1>Contact Me</h1>
+  <section class="card">
+    <form id="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <span class="error" id="name-error"></span>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+      <span class="error" id="email-error"></span>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone">
+      <span class="error" id="phone-error"></span>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+      <span class="error" id="message-error"></span>
+
+      <button type="submit" class="btn">Send</button>
+      <p id="form-success" class="success"></p>
+    </form>
+  </section>
+</main>
+<footer><p>&copy; 2026 Faith Mboutidem Archibong | Miva Open University</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner | Faith Archibong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">Faith Archibong</a>
+  <nav>
+    <a href="index.html" >Home</a>
+    <a href="about.html" >About</a>
+    <a href="projects.html" >Projects</a>
+    <a href="planner.html" class="active">Planner</a>
+    <a href="contact.html" >Contact</a>
+  </nav>
+</header>
+<main>
+  <h1>Academic Planner</h1>
+  <section class="card">
+    <form id="task-form">
+      <label for="task-input">New task</label>
+      <div class="row">
+        <input type="text" id="task-input" placeholder="e.g. Finish web assignment">
+        <button type="submit" class="btn">Add</button>
+      </div>
+      <span class="error" id="task-error"></span>
+    </form>
+    <p id="task-count" class="muted"></p>
+    <ul id="task-list" class="tasks"></ul>
+  </section>
+</main>
+<footer><p>&copy; 2026 Faith Mboutidem Archibong | Miva Open University</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
